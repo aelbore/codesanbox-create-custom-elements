@@ -1,3 +1,9 @@
 {
-  "title": "Codesandbox Create Custom Elements"
+  "title": "Codesandbox Create Custom Elements",
+  "build": {
+    "scripts": [
+      "main/bundles/main.umd.js",
+      "elements/bundles/elements.umd.js"
+    ]
+  }
 }
